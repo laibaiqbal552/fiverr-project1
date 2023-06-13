@@ -5,9 +5,7 @@
 @tailwind utilities;
 .heading {
 }
-.syne {
-  font-family: "Syne", sans-serif;
-}
+
 @media (min-w-1024px) {
   .h1:after {
     content: "";

@@ -8,7 +8,7 @@ const ProjectHighlight = () => {
   return (
     <div className="py-20">
       <div className="flex flex-col md:mb-16 mb-6 item-center">
-        <h1 className="text-white md:mb-8 mb-4 text-center  md:text-4xl text-3xl font-bold syne">
+        <h1 className="text-white md:mb-8 mb-4 text-center  md:text-4xl text-3xl font-bold font-sans">
           My Projects Highlight
         </h1>
         <button className=" flex justify-center  text-base items-center gap-2 bg-transparent mx-auto max-w-[180px] w-full px-5 py-1 border-[#FF9142] text-[#F4F7FA] rounded-2xl border">
@@ -28,7 +28,7 @@ const ProjectHighlight = () => {
                 />
               </div>
               <div className="ml-12">
-                <p className="text-white h1 mb-4 relative text-lg  font-bold syne">
+                <p className="text-white h1 mb-4 relative text-lg  font-bold font-sans">
                   {project.name}
                 </p>
                 <div className="flex gap-8 text-white text-sm">

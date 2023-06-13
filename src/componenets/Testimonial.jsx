@@ -4,7 +4,7 @@ const Testimonial = () => {
   return (
     <div className="pb-20 md:mx-12 mx-5">
       <div className="flex justify-between mb-4 ">
-        <p className="text-white  text-3xl font-bold syne ">Testimonial</p>{" "}
+        <p className="text-white  text-3xl font-bold font-sans">Testimonial</p>{" "}
         <img
           src={Q}
           alt=""
@@ -23,7 +23,9 @@ const Testimonial = () => {
           professionalism. I would recommend him to anyone looking for a
           design!”`}
         </p>
-        <p className="text-white mb-4 text-lg font-bold syne ">-Martin lee</p>
+        <p className="text-white mb-4 text-lg font-bold font-sans">
+          -Martin lee
+        </p>
       </div>
     </div>
   );

@@ -8,6 +8,9 @@ module.exports = {
         secondry: "#131313",
         orangePrimary: "#FF9142",
       },
+      fontFamily: {
+        sans: ["Syne", "sans-serif"],
+      },
     },
   },
   plugins: [],

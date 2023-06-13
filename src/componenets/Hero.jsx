@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="lg:mb-0">
       <div className=" lg:mb-16 md:mb-12 md:h-[60vh] h-[50vh] flex justify-center items-center">
         <div className="relative  ">
-          <h1 className=" lg:max-w-[627px] max-w-[450px]  w-full text-center md:text-5xl  text-3xl syne font-bold text-white">
+          <h1 className=" lg:max-w-[627px] max-w-[450px]  w-full text-center md:text-5xl  text-3xl font-sans font-bold text-white">
             Adaptive Logo Design for Your Brand
           </h1>
           <img src={Img2} alt="" className="absolute z-10  -right-12 -top-20" />

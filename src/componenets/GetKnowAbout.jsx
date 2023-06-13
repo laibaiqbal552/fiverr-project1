@@ -6,7 +6,7 @@ const GetKnowAbout = () => {
   return (
     <div className="lg:px-12 px-5 grid md:grid-cols-2 grid-cols-1  gap-6">
       <div className="lg:mt-28 md:mt-12 md:order-1 order-2">
-        <p className="text-white mb-1 md:text-left text-center lg:text-2xl text-xl font-bold syne">{`Let’s get know about me closer`}</p>
+        <p className="text-white mb-1 md:text-left text-center lg:text-2xl text-xl font-bold font-sans">{`Let’s get know about me closer`}</p>
         <p className="text-[#A8A8A8] text-sm mb-7 md:text-left text-center">
           Aaronn is a New York-based visual designer focusing on branding and
           visual identity. Her portfolio showcases her wide range of work,
