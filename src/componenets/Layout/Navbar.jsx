@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "./../../images/Brand-logo.svg";
+import Img1 from "./../../images/Brand-logo.png";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { FiMenu } from "react-icons/fi";
@@ -13,13 +13,17 @@ const Navbar = () => {
       <div>
         <img src={Img1} alt="" className="rotate-[-13deg]" />
       </div>
-      <div className="md:flex hidden items-center gap-5 text-white text-sm">
-        <ul className="flex gap-5">
+      <div className="md:flex hidden items-center xl:gap-12 gap-5 text-white ">
+        <ul className="flex xl:gap-12 gap-5">
           {menu.map(({ id, name, link }) => {
-            return <li key={id}>{name}</li>;
+            return (
+              <li key={id} className="xl:text-2xl text-lg">
+                {name}
+              </li>
+            );
           })}
         </ul>
-        <button className="bg-[#030304] rounded-2xl border px-4 py-1 border-white">
+        <button className="bg-[#030304] rounded-2xl border lg:px-8 px-4 py-1 border-white">
           Contact
         </button>
       </div>
@@ -34,7 +38,7 @@ const Navbar = () => {
           className="!bg-[#131313]"
         >
           <div className=" ">
-            <ul className="flex flex-col text-lg fpnt bold gap-2 p-5 text-white">
+            <ul className="flex flex-col  text-lg fpnt bold gap-2 p-5 text-white">
               {menu.map(({ id, name, link }) => {
                 return <li key={id}>{name}</li>;
               })}
@@ -58,12 +62,12 @@ const menu = [
     link: "",
   },
   {
-    id: 1,
+    id: 2,
     name: "About",
     link: "",
   },
   {
-    id: 1,
+    id: 3,
     name: "Booking",
     link: "",
   },

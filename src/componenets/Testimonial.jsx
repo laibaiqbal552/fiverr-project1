@@ -2,17 +2,17 @@ import React from "react";
 import Q from "./../images/q.png";
 const Testimonial = () => {
   return (
-    <div className="pb-20 md:mx-12 mx-5">
+    <div className="lg:max-w-7xl pb-20 lg:px-8 px-5 ">
       <div className="flex justify-between mb-4 ">
         <p className="text-white  text-3xl font-bold font-sans">Testimonial</p>{" "}
         <img
           src={Q}
           alt=""
-          className="-rotate-[13deg] md:max-h-[80px] md:max-w-[80px] md:w-full"
+          className="-rotate-[13deg] md:max-h-[80px] max-h-[50px] md:max-w-[80px] max-w-[50px] md:w-full"
         />
       </div>
       <div className="max-w-[800px] w-full">
-        <p className="text-[#949494] text-base mb-4">
+        <p className="text-[#949494] md:text-base text-sm mb-4">
           {`“Aaronn was fantastic to work with from start to finish. We were
           looking for a simple, stand-out logo and he delivered. I tried
           designing the logo myself thinking I wouldn’t need to pay the money
